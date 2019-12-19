@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 #Script que te pide mediante un dialog unos parametros para la 
 #interfaz de red y te los pone a la maquina
 #Iñigo Briñas Pascual
@@ -88,7 +88,7 @@ function mostrarconfig {
 
 #Funcion añadir configuracion, que cambiara el archivo /etc/network/interfaces
 function guardarconfig {
-	echo $configuracion > /etc/network/interfaces
+	echo $configuracion >> /etc/network/interfaces
 	exit 0
 } 
 
