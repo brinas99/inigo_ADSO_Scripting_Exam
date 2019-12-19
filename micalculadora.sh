@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 #Script para hacer una clculadora desde la linea de comandos
 #Iñigo Briñas Pascual
 #SI2
@@ -61,7 +61,7 @@ read -p "Calculadora " eleccion
 			then
 				echo "No se puede dividir por 0"
 			else
-				reasultado=$(($num1 / $num2))
+				resultado=$(($num1 / $num2))
 				resto=$(($num1 % $num2))
 				echo "El resultado de la division de los operadores $num1 y $num2 es: $resultado y el resto es $resto"
 				echo division >> operaciones.txt
